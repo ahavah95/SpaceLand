@@ -1,0 +1,21 @@
+body {
+	background-color: #282923;
+}
+p {
+	color: white;
+}
+div{
+	width: 800px;
+	height: 50px;
+	background-color: green;
+}
+div {
+	width: 800px;
+	height: 50px;
+	background-color: yellow;
+}
+div {
+	width: 800px;
+	height: 50px;
+	background-color: green;
+}

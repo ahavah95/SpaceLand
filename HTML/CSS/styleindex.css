@@ -1,0 +1,17 @@
+body{
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #000000;
+}
+table{
+	text-align: center;
+
+}
+.audio {
+	width: 1050px;
+	height: 50px;
+	line-height: 50px;
+	text-align: left;
+	text-indent: 7px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bài 6</title>
+	</head>
+	<body>
+		<a href="index.html"><input type="submit" value="TRANG CHỦ"></a>
+
+		<form action="">
+			<fieldset style="width: 400px;height: auto;">
+				<legend>
+					<b>Nội dung bài này</b>
+				</legend>
+				<p>Ở phần này sẽ học về <b>tạo bảng</b> giống như excel hay word cơ bản chúng ta hay thường làm việc</p>
+			</fieldset>
+		</form>
+		
+		<br><p>Thì thẻ sử dụng ở đây để tạo bảng là thẻ <b>table</b>, nếu bạn muốn bao nhiêu hàng thì sử dụng bấy nhiêu thẻ con là thẻ <b>tr</b>; còn cột thì là thẻ <b>td</b></p><br>
+		<p>có 3 dạng tôi được biết ấy là <i>ô dữ liệu full</i>, <i>trống dữ liệu</i> và <i>gộp 2 hoặc nhiều ô</i> ngang hoặc dọc thành 1</p>
+		<br>
+			<table border="2">
+				<tr>
+					<td>Số thứ tự</td>
+					<td>Họ và tên</td>
+					<td>Giới tính</td>
+					<td>Số điện thoại</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>Nguyễn Thị Thanh Thúy</td>
+					<td>Đẹp gái</td>
+					<td>123336554</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><b>Nguyễn Quốc Việt</b></td>
+					<td>Đẹp trai</td>
+					<td>32225664</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Bùi Văn Tín</td>
+					<td>Chuẩn trai</td>
+					<td>9984453625</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Phạm Trương Anh Tuấn</td>
+					<td>Tuấn Pro</td>
+					<td>654265852</td>
+				</tr>
+
+			</table><br>
+		<p>Bây giờ là thử <b>ghép ô</b> với nhau nhé</p><br>
+			<table border="2">
+				<tr>
+					<td>Số thứ tự</td>
+					<td>Họ và tên</td>
+					<td colspan="2">thử thôi</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td colspan="2">Nguyễn Thị Thanh Thúy</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td><b>Nguyễn Quốc Việt</b></td>
+					<td>Đẹp trai</td>
+					<td>32225664</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Bùi Văn Tín</td>
+					<td rowspan="2"></td>
+					<td>9984453625</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Phạm Trương Anh Tuấn</td>
+					<td>Tuấn Pro</td>
+					<td>654265852</td>
+				</tr>
+
+			</table><br>
+			<p>Các bạn thấy đó: <b>tôi cố tình</b> <u>làm rất lộn xộn</u> để hiểu được quy tắc ngôn ngữ nó định dạng kiểu gì ấy mờ :))</p><br>
+			<form action="">
+				<fieldset style="width: 1050px;height: auto;">
+					<legend>
+						Tui thử ví dụ 2 để đảo làm cột trước hàng sau mà nó <b>fail không tưởng luôn</b>. Khóc cả một dòng sông!
+					</legend>
+								<table border="2">
+				<td>
+					<tr>Số thứ tự</tr>
+					<tr>Tên đứa bịnh</tr>
+					<tr>Tuổi</tr>
+					<tr>Có người yêu chưa</tr>
+					<tr>Học cái giề</tr>
+				</td>
+
+				<td>
+					<tr>1</tr>
+					<tr>Con ABC</tr>
+					<tr>21</tr>
+					<tr>Có rồi, đẹp như</tr>
+					<tr>học yêu</tr>
+				</td>
+
+				<td>
+					<tr>2</tr>
+					<tr>Thằng GHJ</tr>
+					<tr>22</tr>
+					<tr>chưa, ế chổng mông</tr>
+					<tr oncontextmenu="5">học tán gái mà tán hoài k đổ</tr>
+				</td>
+
+				<td>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+				</td>
+			</table>
+				</fieldset>
+			</form><br>
+
+		<a href="4.html"><input type="submit" value="BÀI TRƯỚC"></a>
+		<a href="6.html"><input type="submit" value="BÀI SAU"></a><br><br>
+
+	</body>
+</html>

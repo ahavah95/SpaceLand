@@ -1,0 +1,108 @@
+
+.maubody {
+	background-color: #282923;
+	width: 800px;
+	margin: auto;
+}
+
+div {
+	color: white;
+	text-align: center;
+}
+#bn{
+	color: black;
+	height: 100px;
+	background-color: yellow;
+	line-height: 100px;
+
+}
+.mn{
+	height: 50px;
+	background-color: red;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+.mn ul{
+	padding: 0px;
+	list-style-type: none;
+}
+
+.mn ul li{
+	float: left;
+	width: 159px;
+	border-left: 1px solid #ffffff;
+	position: relative; /*cố định li*/
+}
+.mn ul li .khac:hover{
+	background-color: pink;
+}
+.mn ul li .khac:hover .ndsub{ 
+	color: red;
+}
+.mn ul li:hover{
+	color: white;
+	background-color: #050E91;
+} 
+
+.mn ul li a{
+	text-decoration: none;
+	color: yellow;
+}
+
+.mn ul li a:hover{
+	color: white;
+}
+
+
+.submenu{
+	display: none; /*ẩn list đi*/
+	position: absolute; z-index: 90; /*menu hiện lên trên li cố định*/
+	background-color: #C5A375;
+	color: #02632E;
+	border-left: 0px;
+}
+.submenu .khac{
+	border-left: none;
+}
+
+.mn li:hover .submenu{
+	display: block; /*Hiện ra dưới dạng 1 khối dọc xuống*/
+}
+
+
+/*.mn ul li .khac .ndsub:hover{
+	color: red;*/
+}
+
+#wrapper{
+	height: 1000px;
+	line-height: 1000px;
+	margin-bottom: 10px;
+}
+#l{
+	color: black;
+	width: 150px;
+	height: 1000px;
+	background-color: white;
+	float: left;
+	padding: 10px, 0px, 10px,0px;
+}
+#m{
+	width: 500px;
+	height: 1000px;
+	background-color: green;
+	float: left;
+}
+#r{
+	color: black;
+	width: 150px;
+	height: 1000px;
+	background-color: white;
+	float: left;
+}
+#bt{
+	height: 50px;
+	background-color: #F78441;
+	line-height: 50px;
+}

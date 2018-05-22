@@ -1,0 +1,53 @@
+.maubody {
+	background-color: #282923;
+}
+p {
+	color: white;
+}
+ul{
+	color: white;
+}
+pre {
+	color: white;
+}
+table {
+	background-color: #9044B1;
+}
+div {
+	color: white;
+}
+#banner {
+	color: black;
+	width: 800px;
+	margin: auto;
+	height: 100px;
+	background-color: yellow;
+}
+#menu {
+	width: 800px;
+	margin: auto;
+	height: 50px;
+	background-color: red;
+}
+#khunggiua {
+	width: 800px;
+	margin: auto;
+	height: 1000px;
+}
+#left {
+	color: black;
+	width: 300px;
+	height: 1000px;
+	background-color: white;
+}
+/*#giua {
+	width: 500px;
+	height: 1000px;
+	background-color: green;
+}*/.doi-1-chu{
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 10px;
+	text-align: center;
+}

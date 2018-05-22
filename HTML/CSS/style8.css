@@ -1,0 +1,73 @@
+.maubody {
+	background-color: #282923;
+}
+p {
+	color: white;
+}
+ul{
+	color: white;
+}
+pre {
+	color: white;
+}
+table {
+	background-color: #9044B1;
+}
+div {
+	color: white;
+	text-align: center;
+}
+b {
+	color: yellow;
+}
+body{
+	font-family: sans-serif;
+	font-style: initial;
+	font-size: 20px;
+	font-weight: bold;
+	width: 800px;
+	margin: auto;
+}
+#bn{
+	color: black;
+	height: 100px;
+	background-color: yellow;
+	line-height: 100px;
+}
+#mn{
+	height: 50px;
+	background-color: red;
+	line-height: 50px;
+	margin-top: 10px;
+}
+#wrapper{
+	height: 1000px;
+	line-height: 1000px;
+	margin-bottom: 10px;
+}
+#l{
+	color: black;
+	width: 150px;
+	height: 1000px;
+	background-color: white;
+	float: left;
+	padding: 10px, 0px, 10px,0px;
+}
+#m{
+	width: 500px;
+	height: 1000px;
+	background-color: green;
+	float: left;
+}
+#r{
+	color: black;
+	width: 150px;
+	height: 1000px;
+	background-color: white;
+	float: left;
+}
+#bt{
+	height: 50px;
+	background-color: #F78441;
+	line-height: 50px;
+}
