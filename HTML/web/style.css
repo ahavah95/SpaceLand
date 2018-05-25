@@ -1,0 +1,205 @@
+.bgtong {
+    background-color: #D3D3D3;
+}
+#full {
+    width: 1164px;
+    margin: auto;
+    height: 1291.82px;
+}
+/* ---------------------top1---------------------- */
+#top1{
+    float:top;
+    height: 27.2px;
+    background-color: #D26D01;
+}
+/* --------------------top2----------------------- */
+#top2 {
+    float:top;
+    height: 127px;
+    background-color: white;
+}
+#top2 .nd .logo {
+    padding: 20px 30px 15px 64px;
+    float: left;
+    
+}
+#top2 .nd .banner {
+    float: left;
+    width: auto;
+    height: 127px;
+    padding-left: 10px;
+}
+
+/* -----------------------menu------------------ */
+#menu {
+    height:48px;
+    background-color: white;
+}
+#menu .nd {
+    width: 1068;
+    margin-left: auto;
+    margin-right:auto;
+}
+#nd1 {
+    float:left;
+    width: 1020px;
+    padding-left: 48px;
+}
+#nd1 .buttonmenu {
+    float: left;
+    padding-left: 14px;
+    padding-right: 14px;
+    height: 48px;
+    line-height: 48px;
+}
+#search {
+    float: left;
+    width: 48px;
+}
+#search .icon-search {
+    width: 48px;
+    height: 48px;
+}
+/* -------------------link--------------------- */
+#link {
+    height: 85.4px;
+    padding-bottom: 18px;
+    background-color: white;
+}
+#ndlink {
+    height: 73.4px;
+    float:top;
+    padding:0px 48px 0px 48px;
+}
+#titlelink1 {
+    height: 21px;
+    float: top;
+    padding: 9.2px 0px 6px 0px;
+}
+#titlelink1 .link1nd {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 12px;
+    color: #c3c3c3;
+    line-height: 18px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+#titlelink2 {
+    height: 37.2px;
+    float: top;
+}
+#titlelink2 .title2nd {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+    line-height: 37.2px;
+}
+h1{
+    margin: 0.67em 0 0.67em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 6px 0px 6px 0px;
+}
+#space {
+    background-image: url(images/space.JPG);
+    background-repeat: repeat-x;
+    height: 12px;
+    float: top;
+}
+/* ----------------------mid---------------------- */
+#mid {
+    float: top;
+    height: 690.22px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+#ndbaiviet {
+    float: left;
+    padding: 0px 24px 0px 48px;
+    width: 695.98px;
+    height: 585.06px;
+}
+#newfeed {
+    float: left;
+    padding: 20px 48px 0px 24px;
+    width: 323.98px;
+    height: 650.92px;
+}
+div .write-left {
+    float: left;
+    padding: 0px 24px 24px 0px;
+    width: 323.99px;
+    height: 71.98px;
+}
+div .write-right {
+    float: left;
+    padding: 0px 0px 24px 24px;
+    width: 323.99px;
+    height: 71.98px;
+}
+div .stt {
+    height: 40.35px;
+    padding: 30px 0px 30px 0px;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 12px;
+}
+div .t1 {
+    float: left;
+    background-color: #D26D01;
+    width: 33px;
+    height: 33px;
+    margin: 0px 10.35px 10.35px 0px;
+    color: white;
+    line-height: 33px;
+    text-align: center;
+}
+div .t2 {
+    float: left;
+    background-color: white;
+    width: 33px;
+    height: 33px;
+    margin: 0px 10.35px 10.35px 0px;
+    color: black;
+    line-height: 33px;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+}
+div .t2:hover {
+    background-color: black;
+    color: white;
+}
+div .t3 {
+    float: left;
+    background-color: white;
+    width: 33px;
+    height: 33px;
+    margin: 0px 10.35px 10.35px 0px;
+    color: black;
+    line-height: 33px;
+    text-align: center;
+    border: 3px;
+}
+div .note {
+    float: right;
+    padding: 6px 0px 6px 6px;
+}
+
+
+/* ------------------bottom---------------------- */
+#bot {
+    float:top;
+    height: 299px;
+    background-image: url(images/footer-bg-1024x468.jpg);
+    background-size:cover;
+}
+#bg {
+    float: top;
+    width: 1164px;
+    height: 230px;
+    background-color: #D26D01;
+    opacity: 0.9;
+    padding-top: 49px;
+    padding-bottom: 20px;
+}
